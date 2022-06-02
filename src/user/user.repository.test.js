@@ -6,16 +6,6 @@ const { UserModel } = require("../database");
 const UserRepository = require("./user.repository");
 const {describe} = require("mocha/lib/cli/run");
 
-describe("UserController", function () {
-    describe("register", function () {
-        let status, json, res, userController, userService;
-        beforeEach(() => {
-            status = sinon.stub();
-
-        })
-    })
-})
-
 describe("UserRepository", function () {
     const stubValue = {
         id: faker.random.uuid(),
